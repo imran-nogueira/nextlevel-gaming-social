@@ -1,6 +1,4 @@
-# Next Level — Social App for Gamers
-
-> A mobile-first social network for gamers, taken from problem statement and user research all the way to a working MVP.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png"><img alt="Next Level — A mobile-first social app for gamers, taken from user research to a working MVP." src="assets/banner-light.png"></picture>
 
 **Epitech Bachelor · Year 1 · Tech & Business Methodology (B-TBM-100) · Jan 2026**
 Source code is private under Epitech's academic policy. Happy to walk you through the product process or demo the MVP → **imran.nogueira@gmail.com**

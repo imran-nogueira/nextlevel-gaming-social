@@ -1,73 +1,47 @@
-# Next Level — Gaming Social MVP
+# Next Level — Social App for Gamers
 
-> A mobile-first social network for gamers — taken from problem definition through user research to a functional Next.js MVP, in 9 documented phases.
+> A mobile-first social network for gamers, taken from problem statement and user research all the way to a working MVP.
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind](https://img.shields.io/badge/Tailwind-4.1-06B6D4?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=flat&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+**Epitech Bachelor · Year 1 · Tech & Business Methodology (B-TBM-100) · Jan 2026**
+Source code is private under Epitech's academic policy. Happy to walk you through the product process or demo the MVP → **imran.nogueira@gmail.com**
 
-## What it is
+## Overview
 
-**Next Level** is a mobile-first social network that lets gamers share clips and screenshots, interact with the community, and **find teammates filtered by game + skill rank**. The project is structured as a full **product design process** — from problem statement to user research, personas, wireframes, prototype, user testing, and finally an MVP build.
+Next Level lets players share clips and screenshots, interact with the community and **find teammates filtered by game and rank**. The project was run as a full product-design process: every phase is documented and fed the next, and the MVP only implements what survived prioritization.
 
-## The product process (9 phases)
+## The product process
 
-```
-01_research        →  Problem statement · objectives · benchmark · interviews
-02_personas        →  Casual gamer · Competitive player · Parents supervisor
-03_user_journey    →  Mapping the core flows
-04_wireframes      →  Low-fi screens
-05_mockups         →  Hi-fi visuals
-06_prototype       →  Interactive Figma
-07_feedback        →  User testing protocol + results
-08_prioritization  →  MoSCoW matrix · MVP definition
-09_pitch           →  Final stakeholder pitch
-mvp/yowl/          →  Functional Next.js MVP
-```
+| Phase | Output |
+|---|---|
+| 01 Research | Problem statement, objectives, benchmark, interviews |
+| 02 Personas | Casual player · Competitive player · Supervising parent |
+| 03 User journey | Core flows mapped |
+| 04–05 Wireframes & mockups | Low-fi then hi-fi screens |
+| 06 Prototype | Interactive Figma prototype |
+| 07 Feedback | User-testing protocol and results |
+| 08 Prioritization | MoSCoW matrix, MVP scope |
+| 09 Pitch | Final stakeholder pitch |
 
 ## MVP stack
 
-| Layer            | Technology                                                     |
-| ---------------- | -------------------------------------------------------------- |
-| **Framework**    | Next.js 16 + React 19                                          |
-| **Language**     | TypeScript                                                     |
-| **Styling**      | Tailwind CSS 4                                                 |
-| **Backend**      | Express (in-app API routes) + Mongoose                         |
-| **Database**     | MongoDB Atlas                                                  |
-| **Media**        | Cloudinary (image/video uploads)                               |
-| **Moderation**   | `leo-profanity` + `bad-words` for community content filtering  |
-| **Theming**      | `next-themes` for light/dark mode                              |
+| Layer | Tech |
+|---|---|
+| Front end | Next.js, React, JavaScript, Tailwind CSS, `next-themes` (light/dark) |
+| Back end | Express + Mongoose, MongoDB |
+| Media | Cloudinary uploads (images and clips) |
+| Moderation | `leo-profanity` + `bad-words` on user-generated content |
+| Hosting | AWS Amplify |
 
 ## MVP features
 
-- **Auth** : login system
-- **Feed** : community posts with image/clip uploads via Cloudinary
-- **Interactions** : likes and comments
-- **Game search** : browse games to find content
-- **Teammate finder** : match other players by game + rank
-- **Profile page** : user identity & posts
-- **Content moderation** : profanity filter on user-generated content
+Community feed with media uploads · likes and comments · game search · teammate finder by game and rank · profile page · profanity filtering.
 
-## What I learned
+## Key decisions
 
-- **End-to-end product design** — going from "people need X" to a shippable MVP is a different beast than just coding features. Each phase fed the next.
-- **User research with real interviews** — turning qualitative input into 3 distinct personas with quantified pain points
-- **Prioritization that holds up** — MoSCoW + impact matrix forced honest scope decisions
-- **Next.js 16 + React 19** on a non-trivial backend (Mongoose models, Cloudinary upload pipeline, content moderation middleware)
-- **Mobile-first execution** — designing for thumbs first, desktop second
+- **Mobile first** — designed for thumbs, then adapted to desktop.
+- **Scope cut by MoSCoW** — the MVP ships the must-haves from user testing, not the whole wish list.
+- **Moderation built into the MVP** — user-generated content is filtered from the first version, not added later.
 
-## Project context
+## Contact
 
-- **Year** : 2025–2026
-- **School** : Epitech Bachelor, Mulhouse
-- **Team** : group project
-- **Course** : Tech Business Methodology (B-TBM-100)
-
-## Note
-
-This is a portfolio summary. The full source code, documentation, and MVP are private per Epitech academic policy. Available on request for recruiters.
-
----
-
-[Imran Nogueira](https://github.com/imrannnn30)
+Product walkthrough or MVP demo on request → **imran.nogueira@gmail.com** · [Portfolio](https://imran-nogueira.github.io)
